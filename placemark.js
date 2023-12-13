@@ -19,6 +19,7 @@ function init () {
     $.ajax({
         url: "data.json"
     }).done(function(data) {
+        console.log(data);
         objectManager.add(data);
     });
 
